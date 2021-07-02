@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paragraph{
+    font-family: 'Cabin', sans-serif;
+    margin: 1rem 0 1rem 0;
+}
+.index_page, .profile_page{
+    background-position:unset;
+    background-repeat: no-repeat;
+    background:linear-gradient(to bottom, hsla(240, 82%, 29%, 0.1),hsla(240, 91%, 35%, 0.1));
+    
+}
+.container{
+    margin:0 auto;
+    width:90%;
+    max-width:1200px;
+}
+.lg-heading{
+    color:rgb(236, 19, 19);
+    font-size: 40px;
+    font-family: 'Jomhuria', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logged_in_person{
+    margin:1rem 0 0 0;
+    font-family: 'Cabin', sans-serif;
+    color:rgb(2, 35, 54);    
+    width:30%;
+    height:10vh;
+    float:right;
+    text-align: right;
+    
+}
+.formsignup, .formsignin{
+    width:50%;
+    padding:0.5rem;
+    
+}
+.formsignup input, .formsignin input{
+    margin:0.3rem;
+    width:75%;  
+    height:30px; 
+    border:1px solid green;
+}
+  button{
+    width:67px !important;
+    height:29px;
+    background:rgb(9, 136, 115);
+    color:white;
+    font-size: medium;
+    cursor:pointer; 
+}  
+.users{
+    font-weight: bolder;
+    
+    font-family: 'Cabin', sans-serif;
+   
+}
+.users h1{
+    font-size:20px;
+}
+.users a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    text-transform: uppercase;
+    background:rgb(9, 136, 115);
+    text-align: center;
+}
+.users a:hover{
+    background-color:rgb(170, 241, 230);
+    color:black;
+    
+}
+.add_or_update{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* .table{
+    display:block;
+    border:2px solid red;
+} */
+.updatemsg{
+    color:green;
+    text-align:top;
+
+}
+.phonenum{
+    float:right;
+    font-size: 20px;
+}
+/* .table-item{
+    border:2px solid red;
+    width:49%;
+    text-align:left;
+    float:right;
+    margin-right:2%;
+}
+.add_del_btn{
+    float:right;
+    width:49%;
+    border:2px solid red;
+    /* margin-top:-1rem; */
+
